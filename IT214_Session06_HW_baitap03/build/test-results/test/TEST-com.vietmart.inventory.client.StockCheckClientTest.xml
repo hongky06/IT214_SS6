@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vietmart.inventory.client.StockCheckClientTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-10T09:25:23.557Z" hostname="LAPTOP-DO6BR4CF" time="3.529">
+  <properties/>
+  <testcase name="Khi server delay 5s -&gt; RestTemplate ngắt timeout sau 2s và trả về Fallback trong &lt; 3s" classname="com.vietmart.inventory.client.StockCheckClientTest" time="3.513"/>
+  <system-out><![CDATA[16:25:26.544 [Test worker] WARN com.vietmart.inventory.client.StockCheckClient -- L?i timeout ho?c không th? truy c?p product-service khi ki?m tra t?n kho cho productId=101. Nguyên nhân: I/O error on GET request for "http://localhost:62628/api/stock/101": Read timed out
+====== K?T QU? TEST TH?C NGHI?M ======
+Th?i gian ph?n h?i th?c t?: 2107 ms
+Tr?ng thái tr? v?: UNAVAILABLE
+S? l??ng t?n kho: 0
+======================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
